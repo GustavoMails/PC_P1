@@ -1,0 +1,23 @@
+name: PRUEBA-P1
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - numba
+  - streamlit
+  - plotly
+  - pytest
+  - black
+  - flake8
+  - pandas
+  - pytest
+  - flake8
+  - black
+  - pip:
+      - sqlmodel
+      - selenium
+      - webdriver-manager

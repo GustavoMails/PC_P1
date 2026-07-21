@@ -34,7 +34,7 @@ def main() -> None:
 
     print(f"\n--- Top {n} productos más caros ---")
     top_products = repo.get_top_n(n)
-    
+
     if not top_products:
         print("No hay productos registrados en la base de datos.")
     for product in top_products:
@@ -47,8 +47,8 @@ def main() -> None:
     print("-" * 50)
 
     # 3. Interacción por consola: Consulta por tipo de juego
-    tipo_buscado = input("Ingresa el tipo/categoría de juego que deseas buscar (ej. Action, RPG): ").strip()
-    
+    tipo_buscado = input("Ingresa el tipo de juego que deseas buscar (ej. Action, RPG): ").strip()
+
     print(f"\n--- Productos de la categoría: '{tipo_buscado}' ---")
     products_by_type = repo.get_products_by_type(tipo_buscado)
 

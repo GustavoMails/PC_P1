@@ -24,3 +24,7 @@ run:
 # 5. Ejecutar la suite de pruebas unitarias con pytest
 test:
 	$(PYTHON) -m pytest tests/
+
+# 6. Ejecutar el dashboard de Streamlit
+dashboard:
+	streamlit run app/dashboard.py

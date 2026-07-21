@@ -5,7 +5,7 @@ Pruebas unitarias para el repositorio de productos.
 import pytest
 from sqlmodel import SQLModel, Session, create_engine
 
-from gamescout.models import Product, ProductType
+from gamescout.models import Product
 from gamescout.repository import ProductRepository
 
 
